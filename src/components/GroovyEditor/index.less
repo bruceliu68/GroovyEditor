@@ -1,0 +1,43 @@
+:global{
+    .m-groovy-editor{
+        position: relative;
+        overflow: hidden;
+        .codemirror-tipbox{
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            background: #fff;
+            width: 200px;
+            box-shadow: rgba(119, 119, 119, 0.2) 0px 0px 7px, rgba(0, 0, 0, 0) 1px 1px 0px inset, rgba(0, 0, 0, 0) -1px -1px 0px inset;
+            font-size: 12px;
+            ul{
+                margin: 0;
+                padding: 0;
+                max-height: 226px;
+                overflow: auto;
+                li{
+                    list-style: none;
+                    padding: 5px 10px;
+                    cursor: pointer;
+                    &:hover{
+                        background: #63acff;
+                        color: #fff;
+                    }
+                }
+                .cm-active{
+                    background: #63acff;
+                    color: #fff;
+                }
+            }
+        }
+        .cm-s-neo .CodeMirror-cursor{
+            border-left: 1px solid black;
+            border-right: none;
+            width: 0;
+        }
+        .CodeMirror{
+            height: 100% !important;
+        }
+    }
+}
