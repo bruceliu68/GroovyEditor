@@ -127,6 +127,11 @@ class GroovyEditor extends PureComponent {
 		if (code !== nextCode) {
 			this.CodeMirrorEditor.setValue(nextCode);
 		}
+		const defaultCode = prevProps.defaultCode;
+		const nextDefaultCode = this.props.defaultCode;
+		if (defaultCode !== nextDefaultCode) {
+			this.CodeMirrorEditor.setValue(nextDefaultCode);
+		}
 	}
 
 	componentWillUnmount() {
