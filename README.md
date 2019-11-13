@@ -32,7 +32,7 @@ keywords: ["const", "var"],
 ```
 
 ## 编辑器效果
-![Image text](https://github.com/bruceliu68/formulaEdit-react/blob/master/src/img/pic1.png)
+![Image text](https://github.com/bruceliu68/GroovyEditor/blob/master/src/img/pic.png)
 
 ## props参数：
 |    参数    | 类型    |  默认值   |  是否必填  | 说明         |
