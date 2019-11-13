@@ -26,6 +26,14 @@ npm install --save-dev groovy-edit-react
 />
 ```
 
+## keywords 自定义关键词
+```
+keywords: ["const", "var"],
+```
+
+## 编辑器效果
+![Image text](https://github.com/bruceliu68/formulaEdit-react/blob/master/src/img/pic1.png)
+
 ## props参数：
 |    参数    | 类型    |  默认值   |  是否必填  | 说明         |
 | :------:  | :-----: | :----:   | :------: | :----------: |
@@ -38,11 +46,6 @@ npm install --save-dev groovy-edit-react
 | fold   | boolean   |  true     |   非必填  | 代码折叠  |
 | keywords   | array   |  []     |   非必填  | 自定义提示关键词  |
 | onChange  | function|  无      |   非必填  | 返回code       |
-
-## keywords 自定义关键词
-```
-keywords: ["const", "var"],
-```
 
 ## License
 MIT
